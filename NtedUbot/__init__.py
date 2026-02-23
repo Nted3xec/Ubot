@@ -1,6 +1,6 @@
-import uvloop
-
-uvloop.install()
+import asyncio
+# uvloop di-skip
+loop = asyncio.get_event_loop()
 
 import logging
 import os
